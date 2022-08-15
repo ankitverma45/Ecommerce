@@ -16,7 +16,7 @@ const All = () => {
         <>
         <Menu />
          <Routes>
-            <Route path="/" element={<Allcate />}/>
+            <Route path="/"  element={<Allcate />}/>
             <Route path="mobile" element={<Mobile />} />
             <Route path="laptop"  element={<Laptop />} />
             <Route path="computer" element={<Computer />}/>
