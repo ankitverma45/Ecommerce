@@ -1,0 +1,165 @@
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13.0rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.details-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.0rem;
+    border-radius: 2.0rem;
+}
+
+.de-img {
+    width: 40.0rem;
+}
+
+.buy-add {
+    margin-top: 5.0rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.0rem;
+    width: 30.0rem
+}
+
+.buy {
+    background-color: rgb(255, 238, 0);
+    cursor: pointer;
+    border: none;
+    height: 4.0rem;
+    border-radius: 1.0rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.buy:hover {
+    background-color: rgb(166, 161, 2);
+
+}
+
+.add-card {
+    background-color: rgb(255, 115, 0);
+    cursor: pointer;
+    border: none;
+    height: 4.0rem;
+    border-radius: 1.0rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.add-card:hover {
+    background-color: rgb(169, 107, 14);
+
+}
+
+.details-text {
+    width: 50.0rem;
+    margin-top: 2.0rem;
+}
+
+.det-name {
+    font-weight: bold;
+    font-size: 3.0rem;
+}
+
+.sd-bt {
+    display: flex;
+    column-gap: 2.0rem;
+    font-size: 3.0rem;
+}
+
+.rs {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.frs {
+    margin-left: 1.0rem;
+    text-decoration-line: line-through;
+    font-size: 2.0rem;
+}
+
+.Toastify__toast-theme--light {
+    background: black;
+    color: white;
+}
+
+.Toastify__toast {
+    position: relative;
+    min-height: 6.4rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: .8rem;
+    border-radius: .4rem;
+    box-shadow: 0 1px 1.0rem 0 rgb(0 0 0 / 10%), 0 .2rem 1.5rem 0 rgb(0 0 0 / 5%);
+    display: flex;
+    justify-content: space-between;
+    max-height: 80.0rem;
+    overflow: hidden;
+    font-family: sans-serif;
+    cursor: pointer;
+    direction: ltr;
+    z-index: 0;
+}
+
+.Toastify__toast-theme--light {
+    background: black;
+    color: white;
+}
+
+@media(max-width:750px) {
+    .details {
+        margin-top: 9rem;
+        font-size: 1.5rem;
+    }
+
+    .rs {
+        font-size: 2.5rem;
+    }
+
+    .de-img {
+        width: 30.0rem;
+    }
+}
+
+@media(max-width:505px) {
+    .de-img {
+        width: 20.0rem;
+    }
+
+    .buy-add {
+        width: 20.0rem
+    }
+}
+
+@media(max-width:430px) {
+    .details {
+        display: grid;
+    }
+
+    .details-text {
+        margin-left: 5rem;
+        width: 32rem;
+        grid-row-start: 1;
+    }
+
+    .paraa {
+        display: none;
+    }
+
+    .de-img {
+        width: 30.0rem;
+    }
+
+    .buy-add {
+        width: 30.0rem
+    }
+
+    .sd-bt {
+        font-size: 2.5rem;
+    }
+}

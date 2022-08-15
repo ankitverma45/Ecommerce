@@ -1,0 +1,14 @@
+.mo{
+    margin-left: 1.2rem;
+    font-size: 1.5rem;
+    color: #0c023b;
+
+}
+.con{
+    margin-left: 0.6rem;
+}
+
+.gradient{
+    z-index: -100000;
+    background-image: linear-gradient(rgb(165, 158, 158),rgb(255, 255, 255));
+}

@@ -1,0 +1,65 @@
+.header{
+    margin-top:9.3rem;
+}
+.header-item{
+    background-image:url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    background-size: 160.0rem;
+    background-repeat: no-repeat;
+    height: 30.0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-1{
+    width: 30.0rem;
+    max-height: 20rem;
+}
+.sbi{
+    margin-top: 4.0rem;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.sbi-color{
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+.Sbi-white{
+    color: rgb(4, 4, 119);
+}
+.sbi-blue{
+    color: rgb(39, 175, 224);
+}
+.credit{
+    font-size: 1.3rem;
+}
+
+@media(max-width:500px){
+    .header-item{
+        height: 20.0rem;
+    }
+    .img-1{
+        width: 20rem;
+        max-height: 20rem;
+    }
+    .sbi{
+        margin-top: 2.0rem;
+    }
+}
+@media(max-width:400px){
+    .img-1{
+        width: 17rem;
+    }
+    .sbi-color{
+        font-size: 1.5rem;
+    }
+    .credit{
+        font-size: 1.1rem;
+    }
+    .sbi{
+        margin-top: 1.0rem;
+    }
+}

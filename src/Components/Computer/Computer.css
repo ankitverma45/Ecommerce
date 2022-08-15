@@ -1,0 +1,81 @@
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 95px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://st.depositphotos.com/1522993/4737/v/600/depositphotos_47372005-stock-illustration-orange-blue-background-with-triagles.jpg);
+    background-repeat: no-repeat;
+    background-size: 100.0rem;
+    height: 25.0rem;
+    width: 32vw;
+    margin-top: 1.0rem;
+    padding: .5rem;
+}
+.image-3{
+    width: 15vw;
+    height: 25vh;
+ 
+}
+.container-textsss{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.0rem;
+    margin-top: 5.0rem;
+    font-size: 1.7rem;
+
+}
+.line{
+    text-decoration-line: line-through; 
+}
+
+@media(max-width:770px){
+    .all{
+        margin-top: 9rem;
+    }
+    .container3{
+        height: 20.0rem;
+        width: 48vw;
+    }
+    .image-3{
+        width: 15vw;
+        height: 20vh;
+        margin-top: 2.0rem;
+    }
+    .container-textsss{
+        margin-top: 1.3rem;
+        font-size: 1.5rem;
+    }
+    .swiper-container {
+        width: 770px;
+      }
+}
+@media(max-width:500px){
+   
+    .container3{
+        height: 15.0rem;
+        width: 48vw;
+        padding: .5rem;
+    }
+    .image-3{
+        width: 17vw;
+        height: 10vh;
+        margin-top: 4.0rem;
+    }
+    .container-textsss{
+        margin-top: 1.3rem;
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:200px){
+    .swiper-container {
+        width: 200px;
+      }
+
+    }
+.SwiperSlide{
+   margin-left: 1rem;
+    }

@@ -1,0 +1,69 @@
+.container1{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBUu1CMmdsm_f5MDj6AyyTZhq4mPK98_SiA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100.0rem;
+    height: 25.0rem;
+    width: 32vw;
+    margin-top: 1.0rem;
+    padding: .5rem;
+}
+.image-2{
+    width: 15vw;
+    height: 25vh;
+    margin-top: 4.0rem;
+}
+.container-textss{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.0rem;
+    margin-top: 5.0rem;
+    font-size: 1.7rem;
+
+
+}
+.line{
+    text-decoration-line: line-through; 
+}
+
+@media(max-width:770px){
+    .container1{
+        height: 20.0rem;
+        width: 48vw;
+    }
+    .image-2{
+        width: 15vw;
+        height: 20vh;
+        margin-top: 2.0rem;
+    }
+    .container-textss{
+        margin-top: 1.3rem;
+        font-size: 1.5rem;
+    }
+    .swiper-container {
+        width: 770px;
+      }
+}
+@media(max-width:500px){
+    .container1{
+        height: 15.0rem;
+        width: 48vw;
+        padding: .5rem;
+    }
+    .image-2{
+        width: 17vw;
+        height: 10vh;
+        margin-top: 4.0rem;
+    }
+    .container-textss{
+        margin-top: 1.3rem;
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:200px){
+    .swiper-container {
+        width: 200px;
+      }
+
+    }

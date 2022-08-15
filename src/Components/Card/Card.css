@@ -1,0 +1,97 @@
+.price-de{
+    display: grid;
+    justify-content: space-around;
+}
+
+.cartt{
+    display: flex;
+    width: 80.0rem;
+    background-color: rgb(185, 169, 205);
+    height: 30.0rem;
+    margin-bottom: 2.0rem;
+    margin-top: 2rem;
+ 
+}
+.imgg{
+    width: 15.0rem;
+    margin-left: 2.0rem;
+    margin: 3.0rem;
+}
+.cart-name{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.0rem;
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin: 3.0rem;
+}
+
+.price{
+     margin-top: 11rem;
+     grid-row-start: 1;
+     width: 80.0rem;
+     height: 32.0rem;
+     background-color: black;
+     color: white;
+     padding: 3.0rem;
+}
+.pp{
+    font-size: large;
+    font-weight: bold;
+}
+.add-sub{
+    display: flex;
+    margin-left: 5.0rem;
+    align-items: center;
+    font-size: 2.0rem;
+    column-gap: .5rem;
+    cursor: pointer;
+}
+.item{
+   width: 5rem;
+   height: 3.5rem;
+   margin-bottom: .8rem;
+   padding-left: 1.8rem;
+   font-weight: bold;
+   border-radius: .1rem;
+   outline: none;
+   border: .2rem solid black;
+}
+.items{
+    font-size: 1.7rem;
+}
+.itemss{
+    font-size: 3rem;
+}
+.remove{
+    color: white;
+    border: none;
+    background-color: rgb(143, 86, 86);
+    cursor: pointer;
+}
+.remove:hover{
+    background-color: rgb(106, 29, 29);
+}
+
+
+@media(max-width:650px){
+    .cartt{
+        width: 50.0rem;
+    }
+    .price{
+       grid-row-start: 1;
+        width: 50.0rem;
+    }
+}
+@media(max-width:430px){
+    .cartt{
+        width: 40.0rem;
+    }
+    .price{
+       grid-row-start: 1;
+        width: 40.0rem;
+    }
+    .itemss{
+        font-size: 2.5rem;
+    }
+}
